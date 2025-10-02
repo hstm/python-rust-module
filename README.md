@@ -6,7 +6,7 @@ This Python module uses Rust code for performance-critical parts. The standard a
 ## Build
 
 1. Checkout the repository ```git clone https://github.com/hstm/python-rust-module.git```
-2. Create a Python venv ```python -m venv rust_module```
+2. Create a Python venv ```python -m venv rust_module``` and activate it ```source rust_module/bin/activate```
 3. Install maturin ```pip install maturin```
 4. Run ```maturin develop``` to build and install the Python wheel.
 
